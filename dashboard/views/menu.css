@@ -6,10 +6,11 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background: #F4F6F9;
+	margin: 0;
 }
 #sideMenu {
 	background: #302D43;
-	max-width: 280px;
+	/*max-width: 280px;*/
 	padding-top: 100px;
 	position: absolute;
 	top: 0;
@@ -43,4 +44,54 @@ body {
 	width: 30px;
 	position: relative;
 	top: 2px;
+}
+
+/*Thẻ header*/
+header {
+	margin-left: 250px;
+	padding: 10px;
+	left: 0;
+	background: white;
+	top: 0;
+}
+
+/*Thẻ input trong thẻ header*/
+header input[type="text"] {
+	background: transparent;
+	border: none;
+	font-size: 1rem;
+	color: #000000;
+	padding: 8px ;
+}
+
+/*class search*/
+.search {
+	display: inline-block;
+}
+
+/*class fa (icon) */
+.search .fa{
+	color: #F4F6F9;
+	margin-right: 0px;
+}
+
+/*class user*/
+.user {
+	display: flex;
+	float: right;
+	padding: 8px;
+}
+
+/*Thẻ a trong class user*/
+.user a{
+	text-decoration: none;
+	color: #282639;
+	padding-left: 8px;
+}
+
+/*class user-img (ảnh chân dung) */
+.user-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%; 
 }
