@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
-
+@import "container.css";
 *{
 	box-sizing: border-box;
 }
@@ -79,14 +79,15 @@ header input[type="text"] {
 .user {
 	display: flex;
 	float: right;
-	padding: 8px;
+	background:#302D43;
 }
 
 /*Thẻ a trong class user*/
-.user a{
+.logout {
 	text-decoration: none;
 	color: #282639;
 	padding-left: 8px;
+	text-align: center;
 }
 
 /*class user-img (ảnh chân dung) */
