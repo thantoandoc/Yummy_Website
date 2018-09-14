@@ -49,9 +49,9 @@ body {
 /*Thẻ header*/
 header {
 	margin-left: 250px;
-	padding: 10px;
+	padding: 16px;
 	left: 0;
-	background: white;
+	background: #302D40;
 	top: 0;
 }
 
@@ -78,14 +78,14 @@ header input[type="text"] {
 /*class user*/
 .user {
 	display: flex;
-	float: right;
-	background:#302D43;
+	justify-content: flex-end;
+	align-items: center
 }
 
 /*Thẻ a trong class user*/
 .logout {
 	text-decoration: none;
-	color: #282639;
+	color: white;
 	padding-left: 8px;
 	text-align: center;
 }
