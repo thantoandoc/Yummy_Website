@@ -9,95 +9,17 @@
         crossorigin="anonymous">
 </head>
 
-<body>
-    <section id="sideMenu">
-        <nav class="nav">
-            <a href="#">
-                <i class="fa fa-home" aria hidden="true"></i>Home</a>
-            <a href="#">
-                <i class="fa fa-sticky-note-o" aria hidden="true"></i>Item</a>
-            <a href="#">
-                <i class="fa fa-utensils" aria hidden="true"></i>Kitchen</a>
-            <a href="#">
-                <i class="fa fa-clipboard-list-o" aria hidden="true"></i>Payment</a>
-            <a href="#">
-                <i class="fa fa-user-circle-o" aria hidden="true"></i>Item</a>
-            <a href="#">
-                <i class="fa fa-cog" aria hidden="true"></i>Setting</a>
-        </nav>
-    </section>
-    <header>
-        <div class="user">
-            <img class="user-img" src="../public/imgs/user.jpg" alt="">
-            <a href="#" class="logout">Log Out</a>
-        </div>
-    </header>
+<frameset rows="55px, *">
+    <frame name="title" src="title.html"> </frame>
+    <frameset cols="250px,*">
+        <frame name="menu" src="menu.html">    
+        </frame>
+        <frame  name="content" src="content.html">    
+        </frame>
+        
+    </frameset>
     <!-- làm các card -->
-    <div class="container">
-        <!-- card 1 -->
-        <div class="card">
-            <div class="title">
-                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                <h3>Basic</h3>
-            </div>
-            <div class="price">
-                <h2>$
-                    <sub>25</sub>
-                </h2>
-            </div>
-            <div class="detail">
-                <ul>
-                    <li>10Gb Space</li>
-                    <li>3 Dmain Names</li>
-                    <li>20 Email</li>
-                    <li>Like Sport</li>
-                </ul>
-            </div>
-            <a href="#">Order Now</a>
-        </div>
-        <!-- card 2 -->
-        <div class="card">
-            <div class="title">
-                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                <h3>Basic</h3>
-            </div>
-            <div class="price">
-                <h2>$
-                    <sub>25</sub>
-                </h2>
-            </div>
-            <div class="detail">
-                <ul>
-                    <li>10Gb Space</li>
-                    <li>3 Dmain Names</li>
-                    <li>20 Email</li>
-                    <li>Like Sport</li>
-                </ul>
-            </div>
-            <a href="#">Order Now</a>
-        </div>
-        <!-- card 3 -->
-        <div class="card">
-            <div class="title">
-                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                <h3>Basic</h3>
-            </div>
-            <div class="price">
-                <h2>$
-                    <sub>25</sub>
-                </h2>
-            </div>
-            <div class="detail">
-                <ul>
-                    <li>10Gb Space</li>
-                    <li>3 Dmain Names</li>
-                    <li>20 Email</li>
-                    <li>Like Sport</li>
-                </ul>
-            </div>
-            <a href="#">Order Now</a>
-        </div>
-    </div>
-</body>
+   
+</frameset>
 
 </html>
