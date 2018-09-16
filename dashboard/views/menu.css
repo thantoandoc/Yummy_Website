@@ -3,20 +3,48 @@
 *{
 	box-sizing: border-box;
 }
-body {
+frame {
 	font-family: 'Roboto', sans-serif;
 	background: #F4F6F9;
 	margin: 0;
 }
+/*Phần title phía trên cùng*/
+/*class title1 bao phía ngoài cùng*/
+.title1 {
+	background: #302D40;
+}
+
+/*class user*/
+.user {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 8px;
+}
+
+/*Thẻ a trong class user*/
+.logout {
+	text-decoration: none;
+	color: white;
+	padding-left: 8px;
+	text-align: center;
+}
+
+/*class user-img (ảnh chân dung) */
+.user-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%; 
+}
+
 #sideMenu {
 	background: #302D43;
-	/*max-width: 280px;*/
 	padding-top: 100px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 250px;
+	width: 100%;
 }
 #sideMenu nav a {
 	display: block;
@@ -46,53 +74,3 @@ body {
 	top: 2px;
 }
 
-/*Thẻ header*/
-header {
-	margin-left: 250px;
-	padding: 16px;
-	left: 0;
-	background: #302D40;
-	top: 0;
-}
-
-/*Thẻ input trong thẻ header*/
-header input[type="text"] {
-	background: transparent;
-	border: none;
-	font-size: 1rem;
-	color: #000000;
-	padding: 8px ;
-}
-
-/*class search*/
-.search {
-	display: inline-block;
-}
-
-/*class fa (icon) */
-.search .fa{
-	color: #F4F6F9;
-	margin-right: 0px;
-}
-
-/*class user*/
-.user {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center
-}
-
-/*Thẻ a trong class user*/
-.logout {
-	text-decoration: none;
-	color: white;
-	padding-left: 8px;
-	text-align: center;
-}
-
-/*class user-img (ảnh chân dung) */
-.user-img {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%; 
-}
